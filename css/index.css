@@ -71,9 +71,19 @@ p {
     margin: 0 auto;
 }
 
+.container header{
+    width: 100%;
+}
+
+header nav img{
+    height: 30px;
+    width: auto;
+}
+
 header nav {
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 header nav a {
@@ -199,4 +209,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.top-content-about {
+    margin: 20px 0 20px 0;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.middle-content-about .about-selection {
+    margin: 0 10px 20px 0;
+    width: 27vw;
+}
+
+.middle-content-about .about-selection button {
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.about-selection button:hover {
+    color: rgb(143, 31, 31);
+    cursor: crosshair;
+}
+
+.lower-content-about {
+    margin: 10px 0 20px 0;
 }
