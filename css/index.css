@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    color: rgb(143, 31, 31)
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
